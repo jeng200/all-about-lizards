@@ -4,14 +4,60 @@ body {
 
 h1 {
   font-size: 71px;
-  background: green;
+  background: black;
   color: whitesmoke;
   padding: 15px 0;
-  margin: 0;
+  margin-top: 0;
   text-align: center;
 }
 
 img {
-  max-width: 500px;
+  max-width: 400px;
   margin: 15px 0;
+}
+
+.subhead {
+  font-size: 45px;
+  background: black;
+  color: whitesmoke;
+  border-bottom: solid 5px green;
+  padding: 15px;
+  margin-top: 0;
+}
+
+.text-accent {
+  color: yellow;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px
+}
+
+.columns {
+  display: flex;
+}
+
+.main-content {
+  width: 65%;
+  margin-right: 5%;
+}
+
+.sidebar {
+  width: 30%;
+  background: rgb(89, 167, 65);
+  padding: 15px;
+  box-shadow: 5px 5px 0 0 rgb(8, 8, 8);
+}
+
+.col-right {
+  margin-left: 25px;
+}
+
+footer {
+  text-align: center;
+  background: black;
+  color: whitesmoke;
+  margin-top: 20px;
 }
